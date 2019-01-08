@@ -3,11 +3,11 @@ package com.bizcloud.architect.findconflict.display.table;
 import java.lang.reflect.Field;
 
 /**
- * rewrite the value ,especially change the format of the value 
- * @author david
+ * rewrite the value ,especially change the format of the value
  *
+ * @author david
  */
 public interface ValueRewrite {
 
-	public Object rewrite(Field field,Object value);
+    public Object rewrite(Field field, Object value);
 }

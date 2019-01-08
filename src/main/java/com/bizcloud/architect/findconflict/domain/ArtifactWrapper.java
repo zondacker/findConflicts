@@ -5,11 +5,10 @@ import org.apache.maven.model.Dependency;
 
 /**
  * artifact wrapper
- * 
- * @author david
  *
+ * @author david
  */
 public class ArtifactWrapper {
-	public Artifact artifact;
-	public Dependency originFrom;
+    public Artifact artifact;
+    public Dependency originFrom;
 }
