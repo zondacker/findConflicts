@@ -1,4 +1,4 @@
-package findconflicts.sort;
+package com.bizcloud.architect.findconflict.sort;
 
 import java.util.Comparator;
 

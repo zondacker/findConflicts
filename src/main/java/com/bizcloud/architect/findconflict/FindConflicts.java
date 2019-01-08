@@ -1,4 +1,4 @@
-package findconflicts;
+package com.bizcloud.architect.findconflict;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -15,6 +15,11 @@ import java.util.Set;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
+import com.bizcloud.architect.findconflict.display.table.TableGenerator;
+import com.bizcloud.architect.findconflict.domain.ArtifactWrapper;
+import com.bizcloud.architect.findconflict.domain.ClzWrapper;
+import com.bizcloud.architect.findconflict.sort.ClassConflictsComparator;
+import com.bizcloud.architect.findconflict.sort.JarConflictGroupComparator;
 import org.apache.maven.artifact.Artifact;
 import org.apache.maven.model.Dependency;
 import org.apache.maven.plugin.AbstractMojo;
@@ -26,16 +31,11 @@ import org.apache.maven.plugins.annotations.Parameter;
 import org.apache.maven.plugins.annotations.ResolutionScope;
 import org.apache.maven.project.MavenProject;
 
-import findconflicts.display.table.TableGenerator;
-import findconflicts.display.vo.ClassConflict;
-import findconflicts.display.vo.JarConflict;
-import findconflicts.display.vo.JarConflictGroup;
-import findconflicts.display.vo.LogConflict;
-import findconflicts.display.vo.VersionConflict;
-import findconflicts.domain.ArtifactWrapper;
-import findconflicts.domain.ClzWrapper;
-import findconflicts.sort.ClassConflictsComparator;
-import findconflicts.sort.JarConflictGroupComparator;
+import com.bizcloud.architect.findconflict.display.vo.ClassConflict;
+import com.bizcloud.architect.findconflict.display.vo.JarConflict;
+import com.bizcloud.architect.findconflict.display.vo.JarConflictGroup;
+import com.bizcloud.architect.findconflict.display.vo.LogConflict;
+import com.bizcloud.architect.findconflict.display.vo.VersionConflict;
 
 /**
  * find the conflicts of your projects(pom,jar,war)

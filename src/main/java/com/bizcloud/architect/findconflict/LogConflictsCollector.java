@@ -1,12 +1,12 @@
-package findconflicts;
+package com.bizcloud.architect.findconflict;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import findconflicts.display.vo.LogConflict;
-import findconflicts.domain.ArtifactWrapper;
-import findconflicts.domain.ClzWrapper;
+import com.bizcloud.architect.findconflict.display.vo.LogConflict;
+import com.bizcloud.architect.findconflict.domain.ArtifactWrapper;
+import com.bizcloud.architect.findconflict.domain.ClzWrapper;
 
 /**
  * log conflicts collector

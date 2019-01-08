@@ -1,4 +1,4 @@
-package findconflicts;
+package com.bizcloud.architect.findconflict;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,10 +14,9 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.bizcloud.architect.findconflict.display.vo.VersionConflict;
+import com.bizcloud.architect.findconflict.domain.ArtifactWrapper;
 import org.apache.maven.artifact.Artifact;
-
-import findconflicts.display.vo.VersionConflict;
-import findconflicts.domain.ArtifactWrapper;
 
 /**
  * version conflicts collector

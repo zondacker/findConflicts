@@ -1,4 +1,4 @@
-package findconflicts.display.vo;
+package com.bizcloud.architect.findconflict.display.vo;
 /**
  * version conflicts
  * 

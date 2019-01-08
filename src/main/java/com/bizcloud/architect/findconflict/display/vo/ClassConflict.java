@@ -1,15 +1,15 @@
-package findconflicts.display.vo;
+package com.bizcloud.architect.findconflict.display.vo;
 
 /**
- * log conflicts
- * 
+ * class conflicts
  * @author david
  *
  */
-public class LogConflict {
+public class ClassConflict {
 
 	private Integer number;
-	private String logConflictType;
+	private String className;
+	// private long size;
 	private String groupId;
 	private String artifactId;
 	private String version;
@@ -31,6 +31,24 @@ public class LogConflict {
 		this.artifactId = artifactId;
 	}
 
+	public void setVersion(String version) {
+		this.version = version;
+	}
+
+	 
+
+	public String getOriginFrom() {
+		return originFrom;
+	}
+
+	public void setOriginFrom(String originFrom) {
+		this.originFrom = originFrom;
+	}
+
+	public String getClassName() {
+		return className;
+	}
+
 	public String getGroupId() {
 		return groupId;
 	}
@@ -43,24 +61,8 @@ public class LogConflict {
 		return version;
 	}
 
-	public void setVersion(String version) {
-		this.version = version;
-	}
-
-	public String getOriginFrom() {
-		return originFrom;
-	}
-
-	public void setOriginFrom(String originFrom) {
-		this.originFrom = originFrom;
-	}
-
-	public String getLogConflictType() {
-		return logConflictType;
-	}
-
-	public void setLogConflictType(String logConflictType) {
-		this.logConflictType = logConflictType;
+	public void setClassName(String className) {
+		this.className = className;
 	}
 
 }

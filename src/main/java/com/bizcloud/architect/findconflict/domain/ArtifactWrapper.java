@@ -1,4 +1,4 @@
-package findconflicts.domain;
+package com.bizcloud.architect.findconflict.domain;
 
 import org.apache.maven.artifact.Artifact;
 import org.apache.maven.model.Dependency;

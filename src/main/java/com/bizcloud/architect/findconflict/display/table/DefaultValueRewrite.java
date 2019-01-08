@@ -1,9 +1,9 @@
-package findconflicts.display.table;
+package com.bizcloud.architect.findconflict.display.table;
 
 import java.lang.reflect.Field;
 
-import findconflicts.Constants;
-import findconflicts.Util;
+import com.bizcloud.architect.findconflict.Constants;
+import com.bizcloud.architect.findconflict.Util;
 
 /**
  * default implementation of ValueRewrite

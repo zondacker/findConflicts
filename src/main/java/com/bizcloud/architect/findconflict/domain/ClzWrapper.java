@@ -1,4 +1,4 @@
-package findconflicts.domain;
+package com.bizcloud.architect.findconflict.domain;
 /**
  * class wrapper
  * 

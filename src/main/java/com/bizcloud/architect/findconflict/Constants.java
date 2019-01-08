@@ -1,4 +1,4 @@
-package findconflicts;
+package com.bizcloud.architect.findconflict;
 /**
  * constants
  * 

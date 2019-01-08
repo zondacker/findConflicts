@@ -1,8 +1,8 @@
-package findconflicts.sort;
+package com.bizcloud.architect.findconflict.sort;
 
 import java.util.Comparator;
 
-import findconflicts.display.vo.JarConflictGroup;
+import com.bizcloud.architect.findconflict.display.vo.JarConflictGroup;
 
 /**
  * how to rank the result to show

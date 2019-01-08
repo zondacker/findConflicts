@@ -1,9 +1,8 @@
-package findconflicts;
+package com.bizcloud.architect.findconflict;
 
+import com.bizcloud.architect.findconflict.display.table.TableGenerator;
 import org.apache.maven.artifact.Artifact;
 import org.apache.maven.model.Dependency;
-
-import findconflicts.display.table.TableGenerator;
 
 /**
  * Utility

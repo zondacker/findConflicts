@@ -1,4 +1,4 @@
-package findconflicts;
+package com.bizcloud.architect.findconflict;
 
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;

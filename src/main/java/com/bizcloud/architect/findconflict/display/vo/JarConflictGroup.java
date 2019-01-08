@@ -1,4 +1,4 @@
-package findconflicts.display.vo;
+package com.bizcloud.architect.findconflict.display.vo;
 
 import java.text.NumberFormat;
 import java.util.ArrayList;
@@ -7,8 +7,8 @@ import java.util.List;
 
 import org.apache.maven.artifact.Artifact;
 
-import findconflicts.Util;
-import findconflicts.domain.ArtifactWrapper;
+import com.bizcloud.architect.findconflict.Util;
+import com.bizcloud.architect.findconflict.domain.ArtifactWrapper;
 /**
  * a group of jar conflicts
  * @author david
